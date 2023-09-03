@@ -20,9 +20,32 @@ img.gray {
 	cursor: default;
 }
 
+img.index {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  width: 125px;
+}
+figcaption {
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media (max-width: 600px) {
     img {
       width: calc(50% - 2px);
     }
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0px;
 }
 
